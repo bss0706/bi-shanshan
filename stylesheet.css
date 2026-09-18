@@ -64,7 +64,7 @@
 }
 
 a {
-  color: #f49300;
+  color: royalblue;
   text-decoration: none;
 }
 b {
@@ -993,4 +993,519 @@ span.highlight {
   .mountain-cta {
     animation: none;
   }
+}
+
+
+
+
+/* =========================================================
+   FINAL ACADEMIC HOMEPAGE STYLE
+   Inspired by the reference academic homepage
+   Page width and publication cards are preserved
+   ========================================================= */
+
+
+/* ---------- Global typography ---------- */
+
+body,
+td,
+th,
+tr,
+p,
+a {
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 14px;
+}
+
+body {
+    color: #333333;
+    background: #ffffff;
+}
+
+p {
+    color: #333333;
+    line-height: 1.65;
+}
+
+
+/* ---------- Links / Purple accent ---------- */
+
+a,
+a.a1 {
+    color: #7657A8 !important;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a.a1:hover {
+    color: #60448C !important;
+    text-decoration: none;
+}
+
+
+/* ---------- Name ---------- */
+
+name {
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 28px !important;
+    font-weight: 400 !important;
+    color: #222222 !important;
+    letter-spacing: -0.2px;
+}
+
+
+/* ---------- Section headings ---------- */
+
+heading,
+heading2 {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 21px !important;
+    font-weight: 700 !important;
+    color: #222222 !important;
+
+    text-decoration: none !important;
+    text-decoration-color: transparent !important;
+    border: none !important;
+}
+
+
+/* ---------- Bold text ---------- */
+
+strong {
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-weight: 700 !important;
+    color: #222222;
+}
+
+
+/* ---------- Abstract / secondary text ---------- */
+
+abs {
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 14px !important;
+    color: #666666 !important;
+}
+
+
+/* =========================================================
+   NEWS
+   ========================================================= */
+
+#news .news-entry {
+    position: relative;
+    padding-left: 0;
+    margin: 0 0 9px 0;
+    list-style: none;
+    line-height: 1.6;
+}
+
+
+/* Date boxes: RED background + WHITE text */
+
+#news .news-date-badge {
+    display: inline-block;
+    width: 60px;
+    height: 13px;
+    line-height: 28px;
+    text-align: center;
+    text-align: center;
+    background: #D93636 !important;
+    background-image: none !important;
+
+    color: #ffffff !important;
+
+    border: none !important;
+    border-radius: 4px !important;
+
+    padding: 2px 7px !important;
+    margin-right: 6px;
+
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+
+    line-height: 1.4;
+}
+
+
+/* News highlighted journal / important text */
+
+#news .news-highlight {
+    color: #7657A8 !important;
+    text-decoration: none !important;
+    font-weight: 600 !important;
+}
+
+
+/* Other colored News text */
+
+#news .news-text,
+#news .news-text .venue {
+    color: #333333;
+}
+
+#news .news-text a {
+    color: #7657A8 !important;
+}
+
+
+/* =========================================================
+   PUBLICATIONS
+   Typography only — publication CARD BOXES are untouched
+   ========================================================= */
+
+.publications-table papertitle {
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    color: #222222 !important;
+}
+
+.publications-table papertitle a {
+    color: #7657A8 !important;
+}
+
+.publication-authors-shell {
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.publication-authors-toggle {
+    color: #7657A8 !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.publication-authors-toggle:hover {
+    color: #60448C !important;
+}
+
+
+/* Publication journal / venue text */
+
+.publications-table .venue,
+.publications-table .journal,
+.publications-table .publication-venue {
+    color: #7657A8 !important;
+}
+
+.publication-image {
+  width: 220px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* =========================================================
+   TAG FILTERS
+   These are inside index.html, so !important is intentional
+   ========================================================= */
+
+.tag-btn {
+    color: #7657A8 !important;
+    border-color: #7657A8 !important;
+    background: #ffffff !important;
+}
+
+.tag-btn:hover,
+.tag-btn.active {
+    color: #ffffff !important;
+    background: #7657A8 !important;
+    border-color: #7657A8 !important;
+}
+
+
+/* =========================================================
+   SECTION NAVIGATION
+   Keep functionality, make it visually quieter
+   ========================================================= */
+
+.section-drip-nav a {
+    color: #7657A8 !important;
+}
+
+.section-drip-nav a:hover {
+    color: #60448C !important;
+}
+
+
+/* =========================================================
+   CONTACT / PROFILE LINKS
+   ========================================================= */
+
+.contact-links a,
+.profile-links a {
+    color: #7657A8 !important;
+}
+
+.contact-links a:hover,
+.profile-links a:hover {
+    color: #60448C !important;
+}
+
+
+/* =========================================================
+   GENERAL PURPLE ACCENT ELEMENTS
+   ========================================================= */
+
+.purple,
+.accent,
+.highlight {
+    color: #7657A8 !important;
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 600px) {
+
+    name {
+        font-size: 25px !important;
+    }
+
+    heading,
+    heading2 {
+        font-size: 20px !important;
+    }
+
+    body,
+    td,
+    th,
+    tr,
+    p,
+    a {
+        font-size: 14px;
+    }
+
+    #news .news-date-badge {
+        font-size: 11px !important;
+        padding: 2px 6px !important;
+    }
+}
+/* =========================================================
+   SECTION DIVIDERS
+   Reference-style: subtle line BELOW each section
+   ========================================================= */
+
+/* Remove the previous top borders */
+#news,
+#publications,
+#experience,
+#projects,
+#service,
+#awards {
+    border-top: none !important;
+}
+
+/* Add a subtle divider after each section */
+#news,
+#publications,
+#experience,
+#projects,
+#service {
+    border-bottom: 1px solid #eeeeee !important;
+    padding-bottom: 22px !important;
+    margin-bottom: 22px !important;
+}
+
+/* Awards can be the last section, so no extra divider */
+#awards {
+    border-bottom: none !important;
+}
+
+
+/* =========================================================
+   BRIGHT PURPLE — reference style
+   ========================================================= */
+
+a,
+a.a1 {
+    color: #9C1C97 !important;
+}
+
+a:hover,
+a:focus,
+a.a1:hover {
+    color: #7F147B !important;
+}
+
+
+/* =========================================================
+   PUBLICATION TITLES
+   Bright purple + bold
+   ========================================================= */
+
+.publications-table papertitle {
+    display: inline !important;
+
+    color: #9C1C97 !important;
+
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+
+    line-height: 1.55 !important;
+}
+
+
+/* Keep title purple when hovering */
+.publications-table a:hover papertitle {
+    color: #7F147B !important;
+}
+
+
+/* =========================================================
+   PUBLICATION AUTHORS
+   More breathing room
+   ========================================================= */
+
+/* All author names */
+.publications-table td:nth-child(2) a\:focus {
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 14px !important;
+    line-height: 1.65 !important;
+    color: #555555 !important;
+}
+
+
+/* Your own name */
+.publications-table td:nth-child(2) a\:focus strong {
+    color: #9C1C97 !important;
+    font-weight: 700 !important;
+}
+
+
+/* =========================================================
+   PUBLICATION TEXT SPACING
+   ========================================================= */
+
+/* Don't let the title and author lines stick together */
+.publications-table td:nth-child(2) {
+    line-height: 1.6 !important;
+}
+
+/* Publication year / journal line */
+.publications-table td:nth-child(2) em {
+    display: inline-block;
+    margin-top: 3px !important;
+    line-height: 1.5 !important;
+}
+
+
+/* =========================================================
+   YOUR NAME IN PUBLICATIONS
+   Explicitly purple + bold
+   ========================================================= */
+
+.publications-table strong {
+    color: #9C1C97 !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-weight: 700 !important;
+}
+
+
+/* =========================================================
+   PUBLICATION VENUE
+   ========================================================= */
+
+.publications-table .venue,
+.publications-table .journal,
+.publications-table .publication-venue {
+    color: #9C1C97 !important;
+}
+
+
+/* =========================================================
+   TAG BUTTONS
+   ========================================================= */
+
+.tag-btn {
+    color: #9C1C97 !important;
+    border-color: #9C1C97 !important;
+    background: #ffffff !important;
+}
+
+.tag-btn:hover,
+.tag-btn.active {
+    color: #ffffff !important;
+    background: #9C1C97 !important;
+    border-color: #9C1C97 !important;
+}
+
+/* =========================================================
+   NEWS — REFERENCE STYLE
+   ========================================================= */
+
+/* All links and highlighted text inside News */
+#news a,
+#news a:visited,
+#news a:hover,
+#news a:focus,
+#news .news-highlight,
+#news .news-text a,
+#news .venue {
+    color: #9C1C97 !important;
+}
+
+
+/* News date labels */
+#news .news-date-badge {
+    display: inline-block;
+
+    background: #D93636 !important;
+    background-image: none !important;
+
+    color: #ffffff !important;
+
+    border: none !important;
+    border-radius: 3px !important;
+
+    padding: 2px 7px !important;
+    margin-right: 7px;
+
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+
+    line-height: 1.45 !important;
+}
+
+
+/* Purple highlighted words */
+#news .news-highlight {
+    color: #9C1C97 !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+}
+
+
+/* Purple venue / journal names */
+#news .news-text .venue {
+    color: #9C1C97 !important;
+}
+
+
+/* Any strong purple text in News */
+#news strong {
+    color: #9C1C97 !important;
+}
+
+
+/* Keep ordinary News text dark gray */
+#news .news-entry {
+    color: #444444 !important;
+}
+
+#news .news-entry > * {
+    color: inherit;
+}
+
+
+/* But restore purple to links after the general text rule */
+#news .news-entry a,
+#news .news-entry a:visited {
+    color: #9C1C97 !important;
 }

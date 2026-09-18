@@ -1,0 +1,1480 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Shanshan Bi | Personal Homepage Template</title>
+  <meta name="author" content="Shanshan Bi">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" type="image/svg+xml" href="images/template/avatar.svg">
+  <style>
+    body, * {
+      cursor: url('images/icon/cursor.png'), auto;
+    }
+    a, a * {
+      cursor: url('images/icon/cursor-pointer.png'), pointer !important;
+    }
+  </style>
+</head>
+<body>
+  <table id="about" class="page-section" style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:68%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Shanshan Bi &nbsp | &nbsp 毕姗姗
+              </p>
+			<p>
+			  I received my master's training in Medical Biochemistry and Molecular Biology at 
+			  <a href="#">Peking University</a>, supervised by <a href="#">Prof.
+			  Yongping Cui</a> and Associate Professor <a href="#">Dr. Weimin Zhang</a>. Following my master's degree, I remained in the same research group as a Research Assistant for two years, building on my master's research and further optimizing the established approaches, while also contributing to several collaborative projects, including single-cell lineage tracing, and cholangiocarcinoma.
+			</p>
+			<p>
+				My research interests mainly include <a href="#">Cell and Molecular Biology, Biochemistry, Imaging, AI, Tumor, Immunology</a>. I am particularly interested in using imaging approaches to directly visualize cells and tissues, and molecular approaches to trace the origins and mechanisms of diseases and life.
+			</p>
+			<div style="width: 100%; height: 1px; background: linear-gradient(to right, transparent, #ccc 20%, #ccc 80%, transparent); margin: 10px 0;"></div>
+
+              <p class="contact-links">
+                <span class="contact-line">
+                <a href="mailto:bss.0706@163.com" id="email-copy" class="email-link" title="Click to copy email">
+                  <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                    <path d="m3 7 9 6 9-6"></path>
+                  </svg>
+                  Email: <span class="contact-sub">bss.0706@163.com</span>
+                </span>
+			  </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <img style="width:85%;max-width:85%;border-radius:8px;" alt="Shanshan Bi" src="images/template/avatar.png">
+            </td>
+          </tr>
+        </tbody></table>
+
+			<table id="news" class="page-section" style="width:96%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+	          <tr>
+	              <heading>News</heading>
+	            <br>
+	            <td style="padding:0px;width:100%;vertical-align:middle">
+			  <P class="news-first-entry">
+                <li class="news-entry"><span class="news-date-badge">Apr. 2026</span> An invention patent entered substantive examination.
+                </li>
+              </P>
+              <P>
+                <li class="news-entry"><span class="news-date-badge">Dec. 2025</span> One Paper accepted by <span class="news-highlight">Oncogene</span>. 
+                </li>
+              </P>
+              <P>
+                <li class="news-entry"><span class="news-date-badge">Sep. 2025</span> Received <span class="news-highlight">talent support</span> through the Shenzhen Guangming District “Famous Universities and Outstanding Talents” Program.
+                </li>
+              </P>
+			  <P>
+                <li class="news-entry"><span class="news-date-badge">May. 2025</span> One Paper accepted by <span class="news-highlight">Cancer Letters</span>.
+                </li>
+              </P>
+              <P>
+                <li class="news-entry"><span class="news-date-badge">Dec. 2024</span> One Paper accepted by <span class="news-highlight">iScience</span>.
+                </li>
+              </P>
+              <P>
+                <li class="news-entry"><span class="news-date-badge">Jun. 2024</span> Graduated with my master's degree with an excellent thesis defense. ⭐
+                </li>
+              </P>
+            </td>
+          </tr>
+        </tbody></table>
+        
+		<table id="publications" class="publications-table page-section" style="width:100%;border:0px;border-spacing:0 16px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <heading>Publications</heading>
+    <br>
+    
+          <!-- Research Interests Tag Filter -->
+          <style>
+            .tag-filter {
+              display: flex;
+              flex-wrap: wrap;
+              gap: 8px;
+              margin: 16px auto 0;
+              justify-content: center;
+            }
+            .tag-btn {
+              padding: 5px 14px;
+              border-radius: 20px;
+              border: 1px solid rgba(17, 17, 17, 0.18);
+              background: rgba(251, 165, 36, 0.06);
+              color: #6e3519;
+              font-size: 13px;
+              cursor: pointer;
+              transition: all 0.2s;
+            }
+            .tag-btn:hover {
+              border-color: rgba(17, 17, 17, 0.36);
+              background: rgba(251, 165, 36, 0.1);
+              color: #6e3519;
+            }
+            .tag-btn.active {
+              background: #ad7020;
+              color: #fff;
+              border-color: rgba(17, 17, 17, 0.62);
+              box-shadow: 0 2px 8px rgba(173, 112, 32, 0.22);
+            }
+            .tag-count {
+              display: inline-block;
+              background: rgba(0,0,0,0.15);
+              color: inherit;
+              font-size: 11px;
+              font-weight: bold;
+              width: 18px;
+              height: 18px;
+              line-height: 18px;
+              border-radius: 50%;
+              text-align: center;
+              margin-left: 5px;
+              vertical-align: middle;
+            }
+            .tag-btn.active .tag-count {
+              background: rgba(255, 255, 255, 0.22);
+              color: #fff;
+            }
+            .tag-btn:not(.active) .tag-count {
+              background: rgba(251, 165, 36, 0.14);
+              color: #6e3519;
+            }
+            .publications-table tr > td {
+              border-top: 1px solid rgba(0, 0, 0, 0.14);
+              border-bottom: 1px solid rgba(0, 0, 0, 0.14);
+              background: #fff;
+            }
+            .publications-table tr > td:first-child {
+              border-left: 1px solid rgba(0, 0, 0, 0.14);
+              border-radius: 8px 0 0 8px;
+            }
+            .publications-table tr > td:last-child {
+              border-right: 1px solid rgba(0, 0, 0, 0.14);
+              border-radius: 0 8px 8px 0;
+            }
+            .publications-table tr[data-tags][style*="mediumturquoise"] > td {
+              background: mediumturquoise;
+            }
+
+            /* 自定义复制提示框样式 */
+            .toast-message {
+              position: fixed;
+              top: var(--toast-y, 20px);
+              left: var(--toast-x, 50%);
+              transform: translate(-50%, -120%);
+              background: rgba(255, 255, 255, 0.8);
+              color: #333;
+              padding: 8px 16px;
+              border-radius: 20px;
+              box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+              z-index: 2000;
+              opacity: 0;
+              transition: all 0.3s ease;
+              pointer-events: none;
+              border: 1px solid rgba(0,0,0,0.05);
+            }
+            .toast-message.show {
+              opacity: 1;
+              transform: translate(-50%, -135%);
+            }
+
+/* ===== Publication redesigned layout: keep original site typography ===== */
+.publication-card {
+  padding: 20px !important;
+}
+
+.publication-top {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.publication-figure {
+  width: 36%;
+  flex-shrink: 0;
+}
+
+.publication-figure .publication-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  cursor: zoom-in;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.publication-figure .publication-image:hover {
+  opacity: 0.88;
+}
+
+.publication-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.publication-summary {
+  margin-top: 14px;
+  padding-top: 0;
+  line-height: inherit;
+}
+
+/* A one-cell publication card needs rounded borders on all four corners. */
+.publications-table tr > td.publication-card {
+  border-left: 1px solid rgba(0, 0, 0, 0.14);
+  border-right: 1px solid rgba(0, 0, 0, 0.14);
+  border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+  .publication-top {
+    display: block;
+  }
+
+  .publication-figure {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  .publication-figure .publication-image {
+    width: min(100%, 360px);
+    margin: 0 auto;
+  }
+}
+
+/* ===== Publication Image Lightbox ===== */
+
+.publications-table td:first-child img {
+  cursor: zoom-in;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.publications-table td:first-child img:hover {
+  opacity: 0.88;
+}
+
+/* 放大图片时的黑色背景 */
+.image-lightbox {
+  display: none;
+  position: fixed;
+  z-index: 20000;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+/* 显示状态 */
+.image-lightbox.show {
+  display: flex;
+}
+
+/* 放大的图片 */
+.image-lightbox img {
+  max-width: 90vw;
+  max-height: 90vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.35);
+  cursor: zoom-out;
+}
+
+/* 右上角关闭按钮 */
+.image-lightbox-close {
+  position: absolute;
+  top: 20px;
+  right: 28px;
+  color: white;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 1;
+  cursor: pointer;
+  user-select: none;
+  opacity: 0.85;
+  transition: opacity 0.2s ease;
+}
+
+.image-lightbox-close:hover {
+  opacity: 1;
+}
+
+/* 手机端 */
+@media (max-width: 600px) {
+  .image-lightbox {
+    padding: 15px;
+  }
+
+  .image-lightbox img {
+    max-width: 95vw;
+    max-height: 85vh;
+  }
+
+  .image-lightbox-close {
+    top: 12px;
+    right: 18px;
+    font-size: 32px;
+  }
+}
+          </style>
+         
+            <script>
+            function copyText(text, event) {
+              const showToast = () => {
+                const toast = document.getElementById('toast');
+                if (event) {
+                  const margin = 12;
+                  const x = Math.min(Math.max(event.clientX, margin), window.innerWidth - margin);
+                  const y = Math.min(Math.max(event.clientY, 48), window.innerHeight - margin);
+                  toast.style.setProperty('--toast-x', x + 'px');
+                  toast.style.setProperty('--toast-y', y + 'px');
+                }
+                toast.classList.add('show');
+                setTimeout(() => {
+                  toast.classList.remove('show');
+                }, 2000);
+              };
+
+              navigator.clipboard.writeText(text).then(function() {
+                showToast();
+              }).catch(function(err) {
+                console.error('无法复制: ', err);
+                // 降级方案
+                const textArea = document.createElement("textarea");
+                textArea.value = text;
+                document.body.appendChild(textArea);
+                textArea.select();
+                try {
+                  document.execCommand('copy');
+                  showToast();
+                } catch (err) {
+                  console.error('降级复制失败: ', err);
+                }
+                document.body.removeChild(textArea);
+              });
+            }
+
+            // 复制简介功能
+
+            document.getElementById('email-copy').addEventListener('click', function(e) {
+              e.preventDefault();
+              copyText('bss0706@163.com', e);
+            });
+            
+          </script>
+
+	          <tr>
+  <td colspan="2" class="publication-card">
+    <div class="publication-top">
+      <div class="publication-figure">
+        <img src="images/paper/rarelens.png" class="publication-image">
+      </div>
+      <div class="publication-info">
+        <a href="https://doi.org/10.1016/j.isci.2024.111380">
+	              <papertitle>Three-dimensional characteristics of T cells and vasculature in the development of mouse esophageal cancer</papertitle>
+					</a>
+	              <br>
+	              <a:focus><strong>Shanshan Bi</strong></a:focus>,
+                      <a:focus>Yueguang Wu</a:focus>,
+                      <a:focus>Ning Ding</a:focus>,
+                      <a:focus>Yan Zhou</a:focus>,
+                      <a:focus>Huijuan Liu</a:focus>,
+                      <a:focus>Yongjia Weng</a:focus>,
+                      <a:focus>Qiqin Song</a:focus>,
+                      <a:focus>Li Zhang</a:focus>,
+                      <a:focus>Matthew Yibo Cheng</a:focus>,
+                      <a:focus>Heyang Cui</a:focus>,
+                      <a:focus>Weimin Zhang*</a:focus>,
+                      <a:focus>Yongping Cui*</a:focus>
+	              <br>
+	              <em><strong>iScience, 2024</strong></em>
+      </div>
+    </div>
+    <div class="publication-summary">
+      Developed a 3D imaging pipeline to map stage-specific microenvironmental changes during mouse ESCC development, revealing early vascular remodeling, dynamic T-cell infiltration, and their spatial association, particularly at the inflammatory stage. By overcoming the spatial limitations of conventional 2D histology, this study establishes a three-dimensional framework for investigating the esophageal cancer microenvironment across disease stages.
+    </div>
+  </td>
+</tr>
+
+	          <tr>
+  <td colspan="2" class="publication-card">
+    <div class="publication-top">
+      <div class="publication-figure">
+        <img src='images/paper/gamecraft-bench.png' class="publication-image">
+      </div>
+      <div class="publication-info">
+        <a href="https://doi.org/10.1038/s41388-025-03658-9">
+                <papertitle>IRF2BPL transcriptionally regulates IGFBP2 to promote tumor progression and suppresses immune cells infiltration in esophageal squamous cell carcinoma</papertitle>
+              </a>
+              <br>
+              <a:focus>Yueguang Wu†</a:focus>,
+              <a:focus>Heyang Cui†</a:focus>,
+              <a:focus>Longlong Wang</a:focus>,
+              <a:focus>Ning Ding</a:focus>,
+              <a:focus>Yongjia Weng</a:focus>,
+              <a:focus>Yikun Cheng</a:focus>,
+              <a:focus><strong>Shanshan Bi</strong></a:focus>,
+              <a:focus>Heng Xiao</a:focus>,
+              <a:focus>Mingwei Gao</a:focus>,
+              <a:focus>Huijuan Liu</a:focus>,
+              <a:focus>Qiqin Song</a:focus>,
+              <a:focus>Weimin Zhang*</a:focus>,
+              <a:focus>Yongping Cui*</a:focus>
+              <br>
+              <em><strong>Oncogene, 2025</strong></em>
+      </div>
+    </div>
+    <div class="publication-summary">
+      Revealed a noncanonical role of the E3 ubiquitin ligase IRF2BPL as a transcriptional activator of IGFBP2, thereby promoting ESCC progression and reducing immune-cell infiltration within the tumor microenvironment. These findings expand the functional understanding of ubiquitination-related proteins and identify the IRF2BPL–IGFBP2 axis as a potential therapeutic target for simultaneously limiting tumor malignancy and improving the immune contexture of ESCC.
+    </div>
+  </td>
+</tr>
+
+		<tr>
+  <td colspan="2" class="publication-card">
+    <div class="publication-top">
+      <div class="publication-figure">
+        <img src='images/paper/microverse.png' class="publication-image">
+      </div>
+      <div class="publication-info">
+        <a href="https://doi.org/10.1016/j.canlet.2025.217818">
+                <papertitle>Evolutionary adaptation and asymmetric inheritance of polyploid giant cancer cells in esophageal squamous cell carcinoma</papertitle>
+              </a>
+              <br>
+              <a:focus>Qiqin Song</a:focus>,
+              <a:focus>Mingwei Gao</a:focus>,
+              <a:focus>Yongjia Weng</a:focus>,
+              <a:focus>Xuehan Zhuang</a:focus>,
+              <a:focus>Yueguang Wu</a:focus>,
+              <a:focus>Heyang Cui</a:focus>,
+              <a:focus>Ning Ding</a:focus>,
+              <a:focus>Longlong Wang</a:focus>,
+              <a:focus><strong>Shanshan Bi</strong></a:focus>,
+              <a:focus>Li Zhang</a:focus>,
+              <a:focus>Weimin Zhang*</a:focus>,
+              <a:focus>Yongping Cui*</a:focus>
+              <br>
+              <em><strong>Cancer Letters, 2025</strong></em>
+      </div>
+    </div>
+    <div class="publication-summary">
+      Investigated how polyploid giant cancer cells (PGCCs) survive chemotherapy-induced stress and give rise to heterogeneous progeny in ESCC. By integrating multicolour high-resolution 3D/4D live-cell imaging with quantitative subcellular analysis, this study revealed dysregulated cell-cycle progression, noncanonical nuclear dynamics, and asymmetric organelle inheritance. These findings provide new insight into the cellular adaptations that enable PGCC persistence and progeny diversification under therapeutic stress.
+    </div>
+  </td>
+</tr>
+                    
+	          <tr>
+  <td colspan="2" class="publication-card">
+    <div class="publication-top">
+      <div class="publication-figure">
+        <img src='images/paper/medgen.png' class="publication-image">
+      </div>
+      <div class="publication-info">
+        <a href="https://doi.org/10.1515/mr-2024-0031">
+                <papertitle>MST1 interactomes profiling across cell death in esophageal squamous cell carcinoma</papertitle>
+              </a>
+              <br>
+              <a:focus>Li Zhang</a:focus>,
+              <a:focus>Mingwei Gao</a:focus>,
+              <a:focus>Yueguang Wu</a:focus>,
+              <a:focus>Huijuan Liu</a:focus>,
+              <a:focus>Xuehan Zhuang</a:focus>,
+              <a:focus>Yan Zhou</a:focus>,
+              <a:focus>Qiqin Song</a:focus>,
+              <a:focus><strong>Shanshan Bi</strong></a:focus>,
+              <a:focus>Weimin Zhang*</a:focus>,
+              <a:focus>Yongping Cui*</a:focus>
+              <br>
+              <em><strong>Medical Review, 2024</strong></em>
+      </div>
+    </div>
+    <div class="publication-summary">
+      Characterized MST1 interactomes across apoptosis, autophagy, and pyroptosis in ESCC using APEX2-based proximity labeling combined with immunoprecipitation–mass spectrometry (IP–MS), revealing distinct interaction networks potentially associated with mitotic regulation, DNA repair, chromatin remodeling, and cell-death resistance.
+    </div>
+  </td>
+</tr>
+
+
+	        </tbody></table>
+	        <script>
+	          (function() {
+	            var rows = document.querySelectorAll('.publications-table tr[data-tags]');
+
+	            rows.forEach(function(row, index) {
+	              var title = row.querySelector('papertitle');
+	              if (!title) return;
+
+	              var titleContainer = title.closest('a') || title;
+	              var firstBreak = titleContainer.nextElementSibling;
+	              if (!firstBreak || firstBreak.tagName !== 'BR') return;
+
+	              var lastBreak = firstBreak.nextElementSibling;
+	              while (lastBreak && lastBreak.tagName !== 'BR') {
+	                lastBreak = lastBreak.nextElementSibling;
+	              }
+	              if (!lastBreak) return;
+
+	              var authorNodes = [];
+	              var node = firstBreak.nextSibling;
+	              while (node && node !== lastBreak) {
+	                authorNodes.push(node);
+	                node = node.nextSibling;
+	              }
+
+	              var shell = document.createElement('div');
+	              shell.className = 'publication-authors-shell';
+	              var authors = document.createElement('div');
+	              authors.className = 'publication-authors';
+	              authors.id = 'publication-authors-' + index;
+	              authorNodes.forEach(function(authorNode) {
+	                authors.appendChild(authorNode);
+	              });
+
+	              var toggle = document.createElement('button');
+	              toggle.type = 'button';
+	              toggle.className = 'publication-authors-toggle';
+	              toggle.textContent = '▶';
+	              toggle.setAttribute('aria-controls', authors.id);
+	              toggle.setAttribute('aria-expanded', 'false');
+	              toggle.setAttribute('aria-label', 'Expand author list');
+	              toggle.title = 'Expand author list';
+
+	              shell.appendChild(authors);
+	              shell.appendChild(toggle);
+	              firstBreak.parentNode.insertBefore(shell, firstBreak);
+	              firstBreak.remove();
+	              lastBreak.remove();
+
+	              toggle.addEventListener('click', function() {
+	                var expanded = shell.classList.toggle('expanded');
+	                toggle.textContent = expanded ? '▼' : '▶';
+	                toggle.setAttribute('aria-expanded', String(expanded));
+	                toggle.setAttribute('aria-label', expanded ? 'Collapse author list' : 'Expand author list');
+	                toggle.title = expanded ? 'Collapse author list' : 'Expand author list';
+	              });
+	            });
+
+	            function updateAuthorToggles() {
+	              document.querySelectorAll('.publication-authors-shell').forEach(function(shell) {
+	                var authors = shell.querySelector('.publication-authors');
+	                var toggle = shell.querySelector('.publication-authors-toggle');
+	                var wasExpanded = shell.classList.contains('expanded');
+	                if (wasExpanded) shell.classList.remove('expanded');
+	                var hasOverflow = authors.scrollHeight > authors.clientHeight + 1;
+	                if (wasExpanded) shell.classList.add('expanded');
+	                toggle.hidden = !hasOverflow;
+	              });
+	            }
+
+	            updateAuthorToggles();
+
+	            // The publication cards are template examples, so their visible author lists
+	            // and destinations intentionally do not identify real people or projects.
+	            
+	           
+
+	            var resizeFrame;
+	            window.addEventListener('resize', function() {
+	              cancelAnimationFrame(resizeFrame);
+	              resizeFrame = requestAnimationFrame(updateAuthorToggles);
+	            }, { passive: true });
+	          })();
+	        </script>
+
+	        <table id="experience" class="page-section" width="100%" align="center" border="0" cellpadding="10"><tbody>
+          <br>
+              <heading>Work Experience</heading>
+          <br>
+          <tr>
+            <td style="padding-left:20px;padding-right:20px;width:20%;vertical-align:middle"><img src="images/template/institute.png" width="100" alt="Fictional institute logo"></td>
+            <td width="90%" valign="center">
+              <strong>Shenzhen Bay Laboratory</strong>
+              <br> <strong>Qimin Zhan Lab</strong>
+              <br> 2024.08 - 2026.04
+              <br> <strong>Research Assistant</strong>
+              <br> Advisor: <a href="#">Prof. Yongping Cui</a> and Associate Professor <a href="#">Dr. Weimin Zhang</a>
+            </td>
+          </tr>  
+        </tbody></table>
+
+        <style>
+          /* ===== Projects: Research Tag Cloud + Media ===== */
+          #tagcloud-container {
+            position: relative;
+            width: 100%;
+            height: 430px;
+            overflow: hidden;
+            margin: 8px auto 0;
+            perspective: 900px;
+          }
+
+          .tagcloud-item {
+            position: absolute;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            white-space: nowrap;
+            text-decoration: none;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            transform-origin: center center;
+            transition: color 0.2s ease, opacity 0.2s ease;
+            cursor: pointer;
+            user-select: none;
+          }
+
+          .tagcloud-item:hover {
+            color: #b000a8 !important;
+          }
+
+          .project-media-icons {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: 2px;
+          }
+
+          .project-media-btn {
+            width: 23px;
+            height: 18px;
+            padding: 0;
+            border: 0;
+            border-radius: 4px;
+            background: #b000a8;
+            color: #fff;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 1px 4px rgba(176, 0, 168, 0.18);
+            transition: transform 0.18s ease, background 0.18s ease, box-shadow 0.18s ease;
+          }
+
+          .project-media-btn:hover {
+            transform: scale(1.12);
+            background: #c000b8;
+            box-shadow: 0 2px 7px rgba(176, 0, 168, 0.28);
+          }
+
+          .project-media-btn svg {
+            width: 12px;
+            height: 12px;
+            fill: currentColor;
+            pointer-events: none;
+          }
+
+          .project-modal {
+            display: none;
+            position: fixed;
+            inset: 0;
+            z-index: 10000;
+            background: rgba(20, 10, 20, 0.62);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+            box-sizing: border-box;
+          }
+
+          .project-modal.show {
+            display: flex;
+          }
+
+          .project-modal-card {
+            position: relative;
+            width: min(760px, 94vw);
+            max-height: 88vh;
+            overflow-y: auto;
+            background: rgba(255, 255, 255, 0.98);
+            border-radius: 16px;
+            box-shadow: 0 18px 60px rgba(0,0,0,0.22);
+            padding: 30px 32px 32px;
+            box-sizing: border-box;
+          }
+
+          .project-modal-title {
+            margin: 0 45px 8px 0;
+            color: #b000a8;
+            font-size: 28px;
+            line-height: 1.2;
+          }
+
+          .project-modal-description {
+            color: #555;
+            font-size: 15px;
+            line-height: 1.75;
+            margin: 0 0 20px;
+          }
+
+          .project-modal-methods {
+            margin: 0 0 20px;
+            font-size: 13px;
+            line-height: 1.6;
+            color: #666;
+          }
+
+          .project-modal-methods strong {
+            color: #333;
+          }
+
+          .project-media-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+            gap: 14px;
+            margin-top: 12px;
+          }
+
+          .project-media-card {
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            background: #f6f3f6;
+            border: 1px solid rgba(176, 0, 168, 0.12);
+            min-height: 150px;
+          }
+
+          .project-media-card img {
+  display: block;
+  width: 100%;
+  max-height: 330px;
+  object-fit: contain;
+  background: #fff;
+  cursor: zoom-in;
+}
+
+.project-media-card video {
+  display: block;
+  width: 100%;
+  max-height: 330px;
+  object-fit: contain;
+  background: #111;
+  cursor: default;
+}
+
+          .project-media-card video {
+            cursor: default;
+          }
+
+          .project-media-caption {
+            padding: 8px 10px 10px;
+            font-size: 12px;
+            color: #666;
+            background: #fff;
+          }
+
+          .project-media-placeholder {
+            min-height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 18px;
+            box-sizing: border-box;
+            color: #999;
+            font-size: 13px;
+            line-height: 1.5;
+          }
+
+          .project-modal-close {
+            position: absolute;
+            top: 16px;
+            right: 20px;
+            width: 34px;
+            height: 34px;
+            border: 0;
+            border-radius: 50%;
+            background: rgba(176, 0, 168, 0.08);
+            color: #b000a8;
+            font-size: 25px;
+            line-height: 1;
+            cursor: pointer;
+          }
+
+          .project-modal-close:hover {
+            background: rgba(176, 0, 168, 0.16);
+          }
+
+          .project-media-note {
+            margin-top: 12px;
+            font-size: 12px;
+            color: #999;
+          }
+
+          @media (max-width: 600px) {
+            #tagcloud-container {
+              height: 380px;
+            }
+            .tagcloud-item {
+              white-space: normal;
+              text-align: center;
+              max-width: 190px;
+            }
+            .project-modal {
+              padding: 12px;
+            }
+            .project-modal-card {
+              padding: 24px 20px 22px;
+              max-height: 92vh;
+            }
+            .project-modal-title {
+              font-size: 23px;
+            }
+          }
+        </style>
+
+        <table id="projects" class="page-section" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <br>
+              <heading>Projects</heading>
+              <br>
+              <td style="padding:0px;width:100%;vertical-align:middle">
+                <div id="tagcloud-container">
+                    <p style="text-align:center; color:#999; padding-top: 180px;">Loading projects...</p>
+                </div>
+              </td>
+            </tr>
+        </tbody></table>
+
+        <!-- Project detail / media modal -->
+        <div id="project-modal" class="project-modal" aria-hidden="true">
+          <div class="project-modal-card" role="dialog" aria-modal="true" aria-labelledby="project-modal-title">
+            <button type="button" class="project-modal-close" id="project-modal-close" aria-label="Close">×</button>
+            <h2 class="project-modal-title" id="project-modal-title"></h2>
+            <p class="project-modal-description" id="project-modal-description"></p>
+            <p class="project-modal-methods" id="project-modal-methods"></p>
+            <div class="project-media-grid" id="project-media-grid"></div>
+            <p class="project-media-note" id="project-media-note"></p>
+          </div>
+        </div>
+
+        <script>
+          (function() {
+            const container = document.getElementById('tagcloud-container');
+            const modal = document.getElementById('project-modal');
+            const modalTitle = document.getElementById('project-modal-title');
+            const modalDescription = document.getElementById('project-modal-description');
+            const modalMethods = document.getElementById('project-modal-methods');
+            const mediaGrid = document.getElementById('project-media-grid');
+            const mediaNote = document.getElementById('project-media-note');
+            const modalClose = document.getElementById('project-modal-close');
+
+            /*
+             * Replace the media src paths below with your real files.
+             * Suggested folder structure:
+             * images/projects/3d-imaging/...
+             * videos/projects/3d-imaging/...
+             */
+            const myProjects = [
+              {
+                name: '3D Imaging',
+                emphasis: 'primary',
+                media: [
+                  { type: 'video', src: 'videos/projects/3d-imaging/video-1.mp4', label: 'esophagus' },
+                  { type: 'video', src: 'videos/projects/3d-imaging/video-2.mp4', label: 'tumor' }
+                ],
+                description: 'Contribution: Developed a novel 3D imaging pipeline to visualize and quantify stage-resolved changes in vasculature and T-cell distribution during mouse ESCC progression, revealing dynamic vascular remodeling, the spatial organization of T cells and T-cell aggregates, as well as their spatial association during carcinogenesis.',
+                methods: 'Tissue clearing · Light-sheet microscopy · Imaris'
+              },
+              {
+                name: 'PGCCs',
+                emphasis: 'primary',
+                media: [
+                  { type: 'image', src: 'images/projects/pgccs/pgccs-1.png'},
+                ],
+                description: 'Contribution: Generated drug-induced PGCCs from ESCC cells and performed high-resolution 3D/4D live-cell imaging and analysis to characterize cellular morphology and organelle dynamics.',
+                methods: 'Cell Culture · Time-lapse imaging · Image analysis'
+              },
+              {
+                name: 'Ubiquitination-Related Proteases (URPs)',
+                emphasis: 'primary',
+                media: [
+                  { type: 'image', src: 'images/projects/urps/urps-1.png'},
+                ],
+                description: 'Contribution: Characterized IRF2BPL expression in human ESCC samples and cells, established IRF2BPL knockdown cell lines to determine whether IRF2BPL contributes to malignant phenotypes',
+                methods: 'Immunohistochemistry · qPCR · Cell Transfection · Cell proliferation and migration'
+              },
+              {
+                name: 'Cell Death Model',
+                emphasis: 'secondary',
+                media: [
+                  { type: 'image', src: 'images/projects/Cell Death/1.png'},
+                ],
+                 description: 'Contribution: Established drug-induced apoptosis, autophagy, and pyroptosis models in KYSE150 ESCC cells for downstream phenotypic and molecular analyses',
+                methods: 'Cell Culture · Drug treatment'
+              },
+              {
+                name: 'Single-Cell Project',
+                emphasis: 'primary',
+                media: [
+                  { type: 'image', src: 'images/projects/lineage-tracing/lineage-1.png'},
+                ],
+                description: 'Contribution: Performed multi-stage, multi-tissue sampling in a drug-induced ESCC mouse model; collected and processed 10+ tissues from each mouse for downstream sequencing and analyses; quantitatively assessed the tissue distribution of exogenous inserted sequences.',
+                methods: 'tissue RNA extraction · qPCR · Organ dissection · PBMC isolation'
+              },
+              {
+                name: 'Drug Screening in Cholangiocarcinoma',
+                emphasis: 'secondary',
+                media: [
+                  { type: 'image', src: 'images/projects/cholangiocarcinoma/cholangio-1.png'},
+                ],
+                description: 'Contribution: Identified differential cell-cycle responses to two drugs by optimizing proliferation assays with EdU and Ki-67 labeling, consistent with previous flow-cytometric cell-cycle analyses.',
+                methods: 'Drug treatment · Cell proliferation'
+              }
+            ];
+
+            function iconSVG(type) {
+              if (type === 'video') {
+                return '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.2v13.6L19 12 8 5.2z"></path></svg>';
+              }
+              return '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="4" width="17" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="2"></rect><circle cx="8.5" cy="9" r="1.5"></circle><path d="M5.5 17l4.5-4.5 3.2 3.2 2.2-2.2 3.1 3.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>';
+            }
+
+            function openProject(project) {
+              modalTitle.textContent = project.name;
+              modalDescription.textContent = project.description;
+              modalMethods.innerHTML = '<strong>Major Methods:</strong> ' + project.methods;
+              mediaGrid.innerHTML = '';
+              mediaNote.textContent = '';
+
+             (project.media || []).forEach((media, index) => {
+                const card = document.createElement('div');
+                card.className = 'project-media-card';
+
+                if (media.type === 'video') {
+                  const video = document.createElement('video');
+                  video.controls = true;
+                  video.preload = 'metadata';
+                  video.src = media.src;
+                  video.setAttribute('aria-label', media.label);
+                  card.appendChild(video);
+                } else {
+                  const img = document.createElement('img');
+                  img.src = media.src;
+                  img.alt = media.label;
+                  img.addEventListener('click', function() {
+                    openImageLightbox(media.src, media.label);
+                  });
+                  img.addEventListener('error', function() {
+                    card.innerHTML = '<div class="project-media-placeholder">Add your image here:<br><strong>' + media.src + '</strong></div>';
+                  });
+                  card.appendChild(img);
+                }
+
+                const caption = document.createElement('div');
+                caption.className = 'project-media-caption';
+                caption.textContent = media.label;
+                card.appendChild(caption);
+                mediaGrid.appendChild(card);
+              });
+
+              if (!project.media.length) {
+                mediaNote.textContent = 'Media can be added to this project later.';
+              }
+
+              modal.classList.add('show');
+              modal.setAttribute('aria-hidden', 'false');
+              document.body.style.overflow = 'hidden';
+            }
+
+            function closeProject() {
+              modal.classList.remove('show');
+              modal.setAttribute('aria-hidden', 'true');
+              document.body.style.overflow = '';
+              mediaGrid.querySelectorAll('video').forEach(v => v.pause());
+            }
+
+            modalClose.addEventListener('click', closeProject);
+            modal.addEventListener('click', function(e) {
+              if (e.target === modal) closeProject();
+            });
+            document.addEventListener('keydown', function(e) {
+              if (e.key === 'Escape') closeProject();
+            });
+
+function openImageLightbox(src, alt = '') {
+  const lightbox = document.createElement('div');
+  lightbox.className = 'image-lightbox show';
+  lightbox.style.display = 'flex';
+
+  const closeBtn = document.createElement('span');
+  closeBtn.className = 'image-lightbox-close';
+  closeBtn.textContent = '×';
+
+  const img = document.createElement('img');
+  img.src = src;
+  img.alt = alt || '';
+
+  lightbox.appendChild(closeBtn);
+  lightbox.appendChild(img);
+  document.body.appendChild(lightbox);
+
+  const close = function() {
+    lightbox.remove();
+  };
+
+  closeBtn.addEventListener('click', close);
+
+  lightbox.addEventListener('click', function(e) {
+    if (e.target === lightbox) close();
+  });
+
+  img.addEventListener('click', close);
+            }
+
+function initTagCloud(projects) {
+  container.innerHTML = '';
+  const tags = [];
+
+  const r = Math.min(container.offsetWidth, container.offsetHeight) / 2 * 0.8;
+  const stretchX = 1.5;
+
+  const cx = container.offsetWidth / 2;
+  const cy = container.offsetHeight / 2;
+
+  projects.forEach((p) => {
+    const el = document.createElement('div');
+    el.className = 'tagcloud-item';
+
+    const name = document.createElement('span');
+    name.className = 'project-tag-name';
+    name.textContent = p.name;
+
+    const icons = document.createElement('span');
+    icons.className = 'project-media-icons';
+
+    (p.media || []).forEach((media) => {
+      const btn = document.createElement('button');
+
+      btn.type = 'button';
+      btn.className = 'project-media-btn';
+      btn.innerHTML = iconSVG(media.type);
+
+      btn.title = media.type === 'video'
+        ? 'Watch video'
+        : 'View images';
+
+      btn.setAttribute(
+        'aria-label',
+        media.type === 'video'
+          ? 'Watch video'
+          : 'View image'
+      );
+
+      btn.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        openProject(p);
+      });
+
+      icons.appendChild(btn);
+    });
+
+    el.appendChild(name);
+
+    if (p.media && p.media.length) {
+      el.appendChild(icons);
+    }
+
+    el.addEventListener('click', function() {
+      openProject(p);
+    });
+
+    el.style.color = '#444';
+    el.style.fontSize = '12px';
+    el.style.fontWeight =
+      p.emphasis === 'primary' ? '700' : '600';
+
+    container.appendChild(el);
+
+    tags.push({
+      el: el,
+      x: 0,
+      y: 0,
+      z: 0
+    });
+  });
+
+  let angleX = 0.002;
+  let angleY = 0.002;
+  let isHovering = false;
+
+  /*
+   * Golden Spiral distribution
+   * This is the same basic distribution used
+   * in the original author's tag cloud.
+   */
+  const len = tags.length;
+
+  for (let i = 0; i < len; i++) {
+    const phi = Math.acos(-1 + (2 * i + 1) / len);
+    const theta = Math.sqrt(len * Math.PI) * phi;
+
+    tags[i].x =
+      r * Math.cos(theta) * Math.sin(phi);
+
+    tags[i].y =
+      r * Math.sin(theta) * Math.sin(phi);
+
+    tags[i].z =
+      r * Math.cos(phi);
+  }
+
+  let animationId = null;
+  let isVisible = true;
+
+  function rotate() {
+    animationId = null;
+
+    if (!isVisible) return;
+
+    if (!isHovering) {
+      const cosX = Math.cos(angleX);
+      const sinX = Math.sin(angleX);
+
+      const cosY = Math.cos(angleY);
+      const sinY = Math.sin(angleY);
+
+      tags.forEach(tag => {
+
+        // Rotate around X-axis
+        let y =
+          tag.y * cosX -
+          tag.z * sinX;
+
+        let z =
+          tag.z * cosX +
+          tag.y * sinX;
+
+        tag.y = y;
+        tag.z = z;
+
+        // Rotate around Y-axis
+        let x =
+          tag.x * cosY -
+          tag.z * sinY;
+
+        z =
+          tag.z * cosY +
+          tag.x * sinY;
+
+        tag.x = x;
+        tag.z = z;
+      });
+    }
+
+    tags.forEach(tag => {
+
+      const perspective = 2 * r;
+
+      const scale =
+        perspective /
+        (perspective - tag.z);
+
+      const alpha =
+        (tag.z + r) /
+        (2 * r);
+
+      tag.el.style.left =
+        (cx + tag.x * stretchX) -
+        tag.el.offsetWidth / 2 +
+        'px';
+
+      tag.el.style.top =
+        (cy + tag.y) -
+        tag.el.offsetHeight / 2 +
+        'px';
+
+      tag.el.style.transform =
+        `scale(${scale})`;
+
+      tag.el.style.opacity =
+        Math.max(0.2, alpha);
+
+      tag.el.style.zIndex =
+        Math.round(scale * 100);
+    });
+
+    animationId =
+      requestAnimationFrame(rotate);
+  }
+
+  function setVisible(visible) {
+    isVisible = visible;
+
+    if (
+      visible &&
+      animationId === null
+    ) {
+      animationId =
+        requestAnimationFrame(rotate);
+    }
+  }
+
+  container.addEventListener(
+    'mouseenter',
+    () => {
+      isHovering = true;
+    }
+  );
+
+  container.addEventListener(
+    'mouseleave',
+    () => {
+      isHovering = false;
+    }
+  );
+
+  if ('IntersectionObserver' in window) {
+    const observer =
+      new IntersectionObserver(
+        entries => {
+          setVisible(
+            entries[0].isIntersecting
+          );
+        },
+        {
+          rootMargin: '120px'
+        }
+      );
+
+    observer.observe(container);
+  }
+
+  setVisible(true);
+}
+
+              
+
+
+            initTagCloud(myProjects);
+          })();
+        </script>
+
+<table id="awards" class="page-section" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <tbody>
+    <tr>
+      <td style="padding:20px 0px 10px 0px;width:100%;vertical-align:middle">
+        <heading>Awards and Honors</heading>
+
+        <p>
+          <li style="margin-left:20px;">2023: Award for Scientific Research, Peking University</li>
+        </p>
+        <p>
+          <li style="margin-left:20px;">2021-2023: Academic Scholarship, Peking University</li>
+        </p>
+        <p>
+          <li style="margin-left:20px;">2021: Outstanding Graduate Cadre, Southwest Medical University</li>
+        </p>
+        <p>
+          <li style="margin-left:20px;">2019: Outstanding Volunteer, Luzhou National Civilized City Campaign</li>
+        </p>
+         <p>
+          <li style="margin-left:20px;">2017: Merit student, Southwest Medical University</li>
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<!-- Beyond Research -->
+<table id="beyond-research" class="page-section" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;border-top:1px solid #e5e5e5;">
+  <tbody>
+    <tr>
+      <td style="padding:30px 0px 10px 0px;width:100%;vertical-align:middle">
+        <heading>Beyond Research</heading>
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:10px 0px 30px 0px;width:100%;vertical-align:middle">
+
+        <div style="display:flex;align-items:flex-start;gap:40px;">
+
+  <!-- Text -->
+  <div style="flex:1;">
+    <p style="margin-top:0px;">
+      Outside the lab, I am someone who enjoys life in many different ways. I love good food, writing, traveling, cycling, reading, manga and anime, singing, movies, and playing ball games. I enjoy both quiet days at home and sharing good food and conversations with friends. I can be a little shy when meeting people for the first time, but I warm up as I get to know people. I also have a mischievous cat.
+    </p>
+  </div>
+
+  <!-- Travel photo -->
+  <div style="width:240px;flex-shrink:0;margin-top:-10px;">
+    <img src="images/travel.jpg"
+         style="width:100%;height:150px;object-fit:cover;border-radius:10px;">
+
+          </div>
+
+        </div>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+         
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+      </td>
+    </tr>
+  </table>
+
+  <section class="mountain-footer" aria-label="Footer landscape">
+    <div class="mountain-stage">
+      <picture>
+        <source type="image/webp" srcset="images/experience/background-960.webp 960w, images/experience/background-1440.webp 1440w, images/experience/background-1920.webp 1920w" sizes="100vw">
+        <img class="mountain-img" src="images/experience/background.jpeg" alt="Snowy mountain landscape" loading="lazy" decoding="async" fetchpriority="low"
+             onerror="this.style.display='none'; this.closest('picture').nextElementSibling.style.display='block';">
+      </picture>
+      <div class="mountain-fallback" style="display:none;"></div>
+      <div class="mountain-content">
+        <h2>Stay Curious</h2>
+        <p class="mountain-sub">Keep discovering the beauty and wonder in the world.</p>
+        <a href="mailto:bss0706@163.com" class="mountain-cta">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+          <span>Get in Touch</span>
+        </a>
+        <p class="mountain-footnote">
+          <span>Shanshan Bi | Researcher in Molecular Biology</span>
+          <span class="mountain-updated">Last updated: <!-- LAST_UPDATED_START -->September 2026<!-- LAST_UPDATED_END -->.</span>
+          <span class="mountain-template">
+          </span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" onclick="scrollToTop()" title="Back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"/>
+    </svg>
+  </button>
+
+  <div id="toast" class="toast-message">✅复制完成</div>
+
+  <script>
+    // Back to Top
+    (function() {
+      var btn = document.getElementById('backToTop');
+      var sectionNav = document.querySelector('.section-drip-nav');
+      var footer = document.querySelector('.mountain-footer');
+
+      function updateSectionNav() {
+        if (!sectionNav || !footer) return;
+        var footerTop = footer.getBoundingClientRect().top;
+        var navBottom = sectionNav.getBoundingClientRect().bottom;
+        sectionNav.classList.toggle('is-footer-visible', footerTop < navBottom + 28);
+      }
+
+      window.addEventListener('scroll', function() {
+        if (window.scrollY > 300) {
+          btn.classList.add('visible');
+        } else {
+          btn.classList.remove('visible');
+        }
+        updateSectionNav();
+      });
+      window.addEventListener('resize', updateSectionNav);
+      updateSectionNav();
+    })();
+
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+<script>
+/* ===== Publication Image Lightbox ===== */
+
+(function() {
+
+  // 创建放大图片的弹窗
+  const lightbox = document.createElement('div');
+  lightbox.className = 'image-lightbox';
+
+  // 创建关闭按钮
+  const closeButton = document.createElement('div');
+  closeButton.className = 'image-lightbox-close';
+  closeButton.innerHTML = '&times;';
+  closeButton.setAttribute('aria-label', 'Close image');
+
+  // 创建放大的图片
+  const enlargedImage = document.createElement('img');
+  enlargedImage.alt = '';
+
+  lightbox.appendChild(closeButton);
+  lightbox.appendChild(enlargedImage);
+  document.body.appendChild(lightbox);
+
+
+  // 找到所有 publication 图片
+  const publicationImages = document.querySelectorAll(
+    '.publications-table .publication-image'
+  );
+
+
+  // 点击图片 → 放大
+  publicationImages.forEach(function(img) {
+
+    img.addEventListener('click', function() {
+
+      enlargedImage.src = img.src;
+      enlargedImage.alt = img.alt || '';
+
+      lightbox.classList.add('show');
+
+      // 防止背景页面继续滚动
+      document.body.style.overflow = 'hidden';
+    });
+
+  });
+
+
+  // 点击关闭按钮
+  closeButton.addEventListener('click', closeLightbox);
+
+
+  // 点击黑色背景 → 关闭
+  lightbox.addEventListener('click', function(event) {
+
+    if (event.target === lightbox) {
+      closeLightbox();
+    }
+
+  });
+
+
+  // 点击放大的图片本身也关闭
+  enlargedImage.addEventListener('click', closeLightbox);
+
+
+  // 按 ESC 关闭
+  document.addEventListener('keydown', function(event) {
+
+    if (event.key === 'Escape') {
+      closeLightbox();
+    }
+
+  });
+
+
+  function closeLightbox() {
+
+    lightbox.classList.remove('show');
+
+    document.body.style.overflow = '';
+
+  }
+
+})();
+</script>
+</body>
+</html>
